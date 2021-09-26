@@ -1,0 +1,15 @@
+C:\Users\karis\source\repos\Установка свойств в разметке\bin\Debug\Установка свойств в разметке.exe.config
+C:\Users\karis\source\repos\Установка свойств в разметке\bin\Debug\Установка свойств в разметке.exe
+C:\Users\karis\source\repos\Установка свойств в разметке\bin\Debug\Установка свойств в разметке.pdb
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке.csprojAssemblyReference.cache
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\MainWindow.g.cs
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\App.g.cs
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке_MarkupCompile.cache
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке_MarkupCompile.lref
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\MainWindow.baml
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке.g.resources
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка_свойств_в_разметке.Properties.Resources.resources
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке.csproj.GenerateResource.cache
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке.csproj.CoreCompileInputs.cache
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке.exe
+C:\Users\karis\source\repos\Установка свойств в разметке\obj\Debug\Установка свойств в разметке.pdb
