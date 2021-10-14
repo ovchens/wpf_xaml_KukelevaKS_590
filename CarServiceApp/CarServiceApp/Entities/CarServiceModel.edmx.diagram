@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="61fe9fc34b62477ea4d4db0d6986f2bb" Name="Diagram1">
+        <EntityTypeShape EntityType="CarServiceBaseModel.Client" Width="1.5" PointX="0.75" PointY="7" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.ClientService" Width="1.5" PointX="3" PointY="9.125" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.DocumentByService" Width="1.5" PointX="5.25" PointY="9.625" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.Gender" Width="1.5" PointX="1.5" PointY="13" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.Manufacturer" Width="1.5" PointX="0.75" PointY="2.625" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.Product" Width="1.5" PointX="3" PointY="1.875" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="5.75" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.ProductSale" Width="1.5" PointX="5.25" PointY="2.375" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.Role" Width="1.5" PointX="7.75" PointY="1" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.Service" Width="1.5" PointX="0.75" PointY="16.25" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.ServicePhoto" Width="1.5" PointX="3" PointY="18.75" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3.75" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.Tag" Width="1.5" PointX="3" PointY="15.875" />
+        <EntityTypeShape EntityType="CarServiceBaseModel.User" Width="1.5" PointX="10" PointY="0.875" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_Client_Gender" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_ClientService_Client" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_ClientService_Service" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_DocumentByService_ClientService" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_ProductSale_ClientService" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_Product_Manufacturer" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_ProductPhoto_Product" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_ProductSale_Product" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_User_Role" />
+        <AssociationConnector Association="CarServiceBaseModel.FK_ServicePhoto_Service" />
+        <AssociationConnector Association="CarServiceBaseModel.AttachedProduct" />
+        <AssociationConnector Association="CarServiceBaseModel.TagOfClient" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
