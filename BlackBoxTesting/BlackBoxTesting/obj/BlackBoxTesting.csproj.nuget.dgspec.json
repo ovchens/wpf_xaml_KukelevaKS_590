@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\u413\\source\\repos\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj": {}
+    "C:\\Users\\karis\\source\\repos\\wpf_xaml_KukelevaKS_590\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\u413\\source\\repos\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj": {
+    "C:\\Users\\karis\\source\\repos\\wpf_xaml_KukelevaKS_590\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\u413\\source\\repos\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj",
+        "projectUniqueName": "C:\\Users\\karis\\source\\repos\\wpf_xaml_KukelevaKS_590\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj",
         "projectName": "BlackBoxTesting",
-        "projectPath": "C:\\Users\\u413\\source\\repos\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj",
-        "packagesPath": "C:\\Users\\u413\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\u413\\source\\repos\\BlackBoxTesting\\BlackBoxTesting\\obj\\",
+        "projectPath": "C:\\Users\\karis\\source\\repos\\wpf_xaml_KukelevaKS_590\\BlackBoxTesting\\BlackBoxTesting\\BlackBoxTesting.csproj",
+        "packagesPath": "C:\\Users\\karis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karis\\source\\repos\\wpf_xaml_KukelevaKS_590\\BlackBoxTesting\\BlackBoxTesting\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\u413\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\karis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -63,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

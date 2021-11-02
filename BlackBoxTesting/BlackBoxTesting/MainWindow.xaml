@@ -10,13 +10,13 @@
         <TabControl>
             <TabItem Header="Shade_2" Margin="-2,-2,-40,0">
                 <Grid Background="#FFE5E5E5" RenderTransformOrigin="0.448,0.474">
-                    <Image x:Name="shade" Margin="27,58,535,250" Stretch="Fill" Source="C:\Users\u413\Desktop\1.png.png"/>
+                    <Image x:Name="shade" Margin="27,58,535,250" Stretch="Fill" Source="1.png"/>
                     <Label Content="Введите координаты отрезков:"  FontStyle="Oblique" FontSize="16" FontWeight="SemiBold" Foreground="DarkCyan"  HorizontalAlignment="Left" Margin="355,30,0,0" VerticalAlignment="Top"/>
                     <Label Content="Первый отрезок" FontStyle="Italic" Foreground="Brown" HorizontalAlignment="Left" Margin="355,71,0,0" VerticalAlignment="Top"/>
                     <Label Content="Второй отрезок" FontStyle="Italic" Foreground="Brown" HorizontalAlignment="Left" Margin="567,71,0,0" VerticalAlignment="Top"/>
                     <TextBox Name="x1" HorizontalAlignment="Left" Margin="397,123,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.132,0.595" KeyDown="x1_KeyDown"/>
                     <TextBox Name="y1" HorizontalAlignment="Left" Margin="397,177,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.132,0.595" KeyDown="y1_KeyDown"/>
-                    <TextBox Name="x2" HorizontalAlignment="Left" Margin="607,123,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.132,0.595" />
+                    <TextBox Name="x2" HorizontalAlignment="Left" Margin="607,123,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.132,0.595" TextChanged="x2_TextChanged" />
                     <TextBox Name="y2" HorizontalAlignment="Left" Margin="607,177,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.132,0.595"  KeyDown="y2_KeyDown"/>
                     <Label Content="x1" HorizontalAlignment="Left" Height="26" Margin="344,119,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.851,0.8"/>
                     <Label Content="y1" HorizontalAlignment="Left" Height="26" Margin="344,177,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.851,0.8"/>
@@ -24,12 +24,13 @@
                     <Label Content="y2" HorizontalAlignment="Left" Height="26" Margin="550,172,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.851,0.8"/>
                     <Button Content="Рассчитать длину тени" HorizontalAlignment="Left" Margin="361,250,0,0" VerticalAlignment="Top" Width="232" Height="34" Click="Button_Click"/>
                     <Label Name="answer" Content=" " HorizontalAlignment="Left" Margin="38,195,0,0" VerticalAlignment="Top"/>
+                   
                 </Grid>
 
             </TabItem>
             <TabItem Header="Triangle_4" Margin="0,0,-374,-2" HorizontalAlignment="Right" Width="92">
                 <Grid Background="#FFE5E5E5">
-                    <Image Margin="38,30,542,233" Stretch="Fill" Source="C:\Users\u413\Desktop\2.png"/>
+                    <Image Margin="38,30,542,233" Stretch="Fill" Source="C:\Users\karis\source\repos\wpf_xaml_KukelevaKS_590\BlackBoxTesting\BlackBoxTesting\2.png"/>
                     <Label Content="Введите длины сторон треугольника:"  FontStyle="Oblique" FontSize="16" FontWeight="SemiBold" Foreground="DarkCyan"  HorizontalAlignment="Left" Margin="355,30,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="a" HorizontalAlignment="Left" Margin="437,93,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.132,0.595" KeyDown="a_KeyDown"/>
                     <TextBox x:Name="b" HorizontalAlignment="Left" Margin="437,133,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" RenderTransformOrigin="1.132,0.595" KeyDown="b_KeyDown"/>
